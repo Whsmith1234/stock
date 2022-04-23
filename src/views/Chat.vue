@@ -1,27 +1,5 @@
 <template>
-  <v-layout
-    row
-    wrap
-    justify-center
-  >
-    <container>
-      <chat
-        :message-text="messageText"
-        :partner-id="partnerId"
-        @click:chat-avatar="onClickChatAvatar"
-      />
-
-      <PartnerInfo
-        v-if="contactAddress"
-        v-model="show"
-        :address="contactAddress"
-        :name="contactName"
-        :owner-address="address"
-      />
-
-      <ProgressIndicator :show="!isFulfilled" />
-    </container>
-  </v-layout>
+<div>hey</div>
 </template>
 
 <script>
